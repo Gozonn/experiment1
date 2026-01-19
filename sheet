@@ -1,0 +1,135 @@
+Example 1 (Variable)
+Code:
+#include <iostream>
+using namespace std;
+int main() {
+int age = 20; //use your real age
+cout << "My age is: " << age;
+return 0;
+}
+Output:
+Observation:
+Example 2 (Data Types)
+Code:
+#include <iostream>
+using namespace std;
+int main() {
+int num = 10;
+float grade = 91.5;
+char letter = 'A';
+cout << num << endl;
+University of the East
+College of Engineering
+Prepared for:
+Engr. Marjon Umbay
+Faculty, CpE Department
+Subject code: Section: Date:
+Prepared by: [lastname, firstname] Activity No.:
+cout << grade << endl;
+cout << letter;
+return 0;
+}
+Output:
+Observation:
+Example 3 (Comments)
+Code:
+#include <iostream>
+using namespace std;
+int main() {
+// This prints a welcome message
+cout << "Hello C++!";
+return 0;
+}
+Output:
+Observation:
+Example 4 (Arithmetic Operators)
+Code:
+#include <iostream>
+using namespace std;
+int main() {
+int a = 5, b = 3;
+cout << "Sum: " << a + b << endl;
+cout << "Product: " << a * b;
+return 0;
+}
+Output:
+Observation:
+Example 5 (If Statement)
+Code:
+#include <iostream>
+using namespace std;
+int main() {
+int number = 10;
+if (number > 5) {
+cout << "Number is greater than 5";
+}
+return 0;
+}
+Output:
+Observation:
+Example 6 (If-else Statement)
+Code:
+#include <iostream>
+using namespace std;
+int main() {
+int x = 8;
+if (x % 2 == 0) {
+cout << "Even number";
+} else {
+cout << "Odd number";
+}
+return 0;
+}
+Output:
+Observation:
+Example 7 (Input/cin)
+Code:
+#include <iostream>
+using namespace std;
+int main() {
+string name;
+cout << "Enter your name: ";
+cin >> name;
+cout << "Hello, " << name;
+return 0;
+}
+Output:
+Observation:
+Example 8 (Strings)
+Code:
+#include <iostream>
+using namespace std;
+int main() {
+string first = "C++ ";
+string second = "Programming";
+cout << first + second;
+return 0;
+}
+Output:
+Observation:
+Example 9 (While Loop)
+Code:
+#include <iostream>
+using namespace std;
+int main() {
+int i = 1;
+while (i <= 3) {
+cout << i << endl;
+i++;
+}
+return 0;
+}
+Output:
+Observation:
+Example 10 (For Loop)
+Code:
+#include <iostream>
+using namespace std;
+int main() {
+for (int i = 1; i <= 5; i++) {
+cout << "Count: " << i << endl;
+}
+return 0;
+}
+Output:
+Observation:
